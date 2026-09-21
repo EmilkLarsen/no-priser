@@ -33,6 +33,8 @@ def handle(u, html):
         return []
     t = TITLE_RE.search(html)
     name = (t.group(1).split("|")[0].strip() if t else u.rsplit("/", 1)[-1])
+    og = re.search(r'og:image"\s*content="([^"]+)"', html)
+    image = og.group(1) if og else None
     return [{
         "chain": "monter_no",
         "country": "no",
@@ -43,7 +45,7 @@ def handle(u, html):
         "url": u,
         "price": p,
         "in_stock": None,
-        "image": None,
+        "image": image,
     }]
 
 
