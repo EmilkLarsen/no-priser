@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        chain: [byggmakker_no, monter_no]
+        chain: [byggmakker_no, monter_no, byggmax_no, power_no]
     steps:
       - uses: actions/checkout@v4
         with:

@@ -11,7 +11,7 @@ from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST = os.path.join(ROOT, "data", "latest")
-CHAINS = ["byggmakker_no", "monter_no"]
+CHAINS = ["byggmakker_no", "monter_no", "byggmax_no", "power_no"]
 
 # known catalog sizes (approximate, from verified sources) — a chain whose
 # snapshot holds <60% of this is treated as incomplete even with a marker
