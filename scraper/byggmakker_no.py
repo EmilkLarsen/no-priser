@@ -42,6 +42,8 @@ def handle(u, html):
     t = NAME_RE.search(html)
     name = (t.group(1).split("|")[0].strip() if t else u.rsplit("/", 1)[-1])
     sku = u.rstrip("/").rsplit("/", 1)[-1]
+    og = re.search(r'og:image[^>]*content="([^"]+)"', html)
+    image = og.group(1) if og else None
     return [{
         "chain": "byggmakker_no",
         "country": "no",
@@ -53,7 +55,7 @@ def handle(u, html):
         "price": p,
         "unit": unit,
         "in_stock": None,
-        "image": None,
+        "image": image,
     }]
 
 
