@@ -1,0 +1,30 @@
+{
+ "date": "2026-09-22",
+ "total_rows": 31121,
+ "chains": {
+  "power_no": {
+   "products": 40,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 21.0
+  },
+  "byggmax_no": {
+   "error": "UnicodeEncodeError: 'ascii' codec can't encode character '\\xf8' in position 11: ordinal not in range(128)"
+  },
+  "byggmakker_no": {
+   "products": 31,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 18.5
+  },
+  "monter_no": {
+   "products": 31054,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 15347.4
+  }
+ }
+}
