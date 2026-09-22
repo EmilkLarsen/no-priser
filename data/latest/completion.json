@@ -2,20 +2,20 @@
  "date": "2026-09-22",
  "detail": {
   "byggmakker_no": {
-   "rows": 31,
-   "complete": false
+   "rows": 29578,
+   "complete": true
   },
   "monter_no": {
-   "rows": 31050,
-   "complete": false
+   "rows": 31739,
+   "complete": true
   },
   "byggmax_no": {
    "rows": 0,
    "complete": false
   },
   "power_no": {
-   "rows": 40,
-   "complete": false
+   "rows": 36423,
+   "complete": true
   }
  }
 }
