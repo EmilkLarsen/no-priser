@@ -2,11 +2,8 @@
  "date": "2026-09-26",
  "chains": {
   "monter_no": {
-   "products": 31961,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 15677.0
+   "error": "collapse guard: 99 rows vs 32363 before",
+   "kept_previous": true
   }
  }
 }
