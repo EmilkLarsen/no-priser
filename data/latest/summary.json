@@ -1,30 +1,30 @@
 {
- "date": "2026-09-22",
- "total_rows": 31121,
+ "date": "2026-09-26",
+ "total_rows": 98630,
  "chains": {
-  "power_no": {
-   "products": 40,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 21.0
-  },
-  "byggmax_no": {
-   "error": "UnicodeEncodeError: 'ascii' codec can't encode character '\\xf8' in position 11: ordinal not in range(128)"
-  },
   "byggmakker_no": {
-   "products": 31,
+   "products": 29588,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 18.5
+   "seconds": 18552.5
+  },
+  "power_no": {
+   "products": 36514,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 16541.9
   },
   "monter_no": {
-   "products": 31054,
+   "products": 31961,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 15347.4
+   "seconds": 15677.0
+  },
+  "byggmax_no": {
+   "error": "ValueError: redirected: https://www.byggmax.no/strombryter-p29585 -> https://www.byggmax.no/hus-og-bygg/elektrisk-og-vvs/elektrisk-og-elektrisk-utstyr/elektrisk-installasjon/strombryter"
   }
  }
 }
