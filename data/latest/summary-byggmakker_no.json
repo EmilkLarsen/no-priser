@@ -2,11 +2,8 @@
  "date": "2026-09-26",
  "chains": {
   "byggmakker_no": {
-   "products": 29588,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 18552.5
+   "error": "collapse guard: 39 rows vs 29653 before",
+   "kept_previous": true
   }
  }
 }
