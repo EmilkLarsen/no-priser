@@ -1,8 +1,8 @@
 {
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "chains": {
   "byggmax_no": {
-   "error": "ValueError: redirected: https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420531 -> https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420530#1250=157371"
+   "error": "ValueError: redirected: https://www.byggmax.no/strombryter-p29585 -> https://www.byggmax.no/hus-og-bygg/elektrisk-og-vvs/elektrisk-og-elektrisk-utstyr/elektrisk-installasjon/strombryter"
   }
  }
 }
