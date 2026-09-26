@@ -3,25 +3,16 @@
  "total_rows": 98630,
  "chains": {
   "byggmakker_no": {
-   "products": 29588,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 18552.5
+   "error": "collapse guard: 39 rows vs 29653 before",
+   "kept_previous": true
   },
   "power_no": {
-   "products": 36514,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 16541.9
+   "error": "collapse guard: 100 rows vs 36614 before",
+   "kept_previous": true
   },
   "monter_no": {
-   "products": 31961,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 15677.0
+   "error": "collapse guard: 99 rows vs 32363 before",
+   "kept_previous": true
   },
   "byggmax_no": {
    "error": "ValueError: redirected: https://www.byggmax.no/strombryter-p29585 -> https://www.byggmax.no/hus-og-bygg/elektrisk-og-vvs/elektrisk-og-elektrisk-utstyr/elektrisk-installasjon/strombryter"
