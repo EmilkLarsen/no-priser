@@ -1,8 +1,8 @@
 {
- "date": "2026-09-27",
+ "date": "2026-09-28",
  "chains": {
   "byggmax_no": {
-   "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   "error": "ValueError: redirected: https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420531 -> https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420530#1250=157371"
   }
  }
 }
