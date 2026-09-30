@@ -2,7 +2,11 @@
  "date": "2026-09-30",
  "chains": {
   "byggmax_no": {
-   "error": "ValueError: redirected: https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420531 -> https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420530#1250=157371"
+   "products": 5518,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 2577.8
   }
  }
 }
