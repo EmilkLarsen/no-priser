@@ -11,23 +11,41 @@ OG_RE = re.compile(r'og:image"\s*content="([^"]+)"')
 
 
 def fetch_url_list(limit=None):
+    # robots.txt lists a FLAT product sitemap (verified 2026-09-30: single
+    # Sitemap_nb_no_product.xml, ~6,600 <loc> page URLs, 5,518 matching
+    # -p<digits> — NOT an index of sitemap chunks like byggmax.se).
+    # Product URLs contain raw ø/æ (e.g. /lage-døråpning-...) — percent-encode
+    # the path so urllib doesn't raise UnicodeEncodeError.
     robots = get(BASE + "/robots.txt")
     sm_urls = re.findall(r"Sitemap:\s*(\S+product\S*\.xml)", robots)
     urls = []
     for sm in sm_urls:
         xml = get(sm)
-        chunks = re.findall(r"<loc>([^<]+)</loc>", xml)
-        # the robots entry may itself be the chunk (direct) or an index of chunks
-        for target in (chunks if chunks else [sm]):
-            us = [u for u in sitemap_urls(get(target)) if PRODUCT_PAT.search(u)]
-            urls.extend(us)
-            if limit and len(urls) >= limit:
-                break
-        if limit and len(urls) >= limit:
-            break
+        locs = re.findall(r"<loc>([^<]+)</loc>", xml)
+        if any(l.strip().endswith(".xml") for l in locs):
+            # index of chunks (byggmax.se style) — recurse
+            for target in (locs or [sm]):
+                for u in sitemap_urls(get(target)):
+                    if PRODUCT_PAT.search(u):
+                        urls.append(_enc(u))
+                    if limit and len(urls) >= limit:
+                        break
+                if limit and len(urls) >= limit:
+                    break
+        else:
+            # flat page list (byggmax.no style) — filter directly
+            for u in locs:
+                if PRODUCT_PAT.search(u):
+                    urls.append(_enc(u))
         if limit and len(urls) >= limit:
             break
     return urls[:limit] if limit else urls
+
+
+def _enc(u):
+    """Percent-encode non-ASCII chars in the path part of a URL."""
+    import urllib.parse
+    return urllib.parse.quote(u, safe=":/%?#=&[]@!$'()*+,;~-._")
 
 
 def handle(u, html):
