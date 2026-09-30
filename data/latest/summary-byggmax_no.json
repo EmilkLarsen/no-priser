@@ -1,8 +1,8 @@
 {
- "date": "2026-09-29",
+ "date": "2026-09-30",
  "chains": {
   "byggmax_no": {
-   "error": "ValueError: redirected: https://www.byggmax.no/taklampe-torino-p29366 -> https://www.byggmax.no/ryddesalg"
+   "error": "ValueError: redirected: https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420531 -> https://www.byggmax.no/treskrue-forsenket-svart-4-0-x-30-mm-2420530#1250=157371"
   }
  }
 }
