@@ -2,7 +2,7 @@
 deep category-path slugs; price via embedded JSON "price":N,"priceCurrency":"NOK".
 Pages without a price block (categories) are skipped."""
 import re
-from common import get, sitemap_urls, sane_price, write_jsonl
+from common import scrape_with_checkpoint,  get, sitemap_urls, sane_price, write_jsonl
 
 BASE = "https://www.monter.no"
 OUT = "data/latest/monter_no.jsonl"
@@ -49,16 +49,8 @@ def handle(u, html):
     }]
 
 
-def scrape(limit=None):
-    from common import pmap
-
-    def work(u):
-        try:
-            return handle(u, get(u))
-        except Exception as e:
-            print(f"  ! {u}: {e}")
-            return []
-    return pmap(work, fetch_url_list(limit))
+def scrape(limit=None, deadline=None):
+    return scrape_with_checkpoint("monter_no", fetch_url_list(limit), handle, limit, deadline)
 
 
 if __name__ == "__main__":
