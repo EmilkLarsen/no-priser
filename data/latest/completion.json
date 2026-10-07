@@ -3,7 +3,7 @@
  "detail": {
   "byggmakker_no": {
    "rows": 29918,
-   "complete": false
+   "complete": true
   },
   "byggmax_no": {
    "rows": 5521,
