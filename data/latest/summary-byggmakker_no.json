@@ -1,12 +1,12 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "chains": {
   "byggmakker_no": {
-   "products": 29445,
+   "products": 28219,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 35,
-   "seconds": 611.0
+   "expired": 0,
+   "seconds": 18001.0
   }
  }
 }
