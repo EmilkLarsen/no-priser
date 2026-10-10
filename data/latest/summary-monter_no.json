@@ -1,12 +1,12 @@
 {
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "chains": {
   "monter_no": {
-   "products": 32087,
+   "products": 32073,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 103,
-   "seconds": 25.5
+   "expired": 0,
+   "seconds": 15651.7
   }
  }
 }
