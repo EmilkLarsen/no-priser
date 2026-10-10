@@ -2,8 +2,8 @@
  "date": "2026-10-10",
  "detail": {
   "byggmakker_no": {
-   "rows": 31738,
-   "complete": false
+   "rows": 31937,
+   "complete": true
   },
   "byggmax_no": {
    "rows": 5521,
