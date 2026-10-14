@@ -1,34 +1,34 @@
 {
  "date": "2026-10-14",
- "total_rows": 107209,
+ "total_rows": 107230,
  "chains": {
   "byggmakker_no": {
-   "products": 31191,
+   "products": 30210,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 4,
-   "seconds": 800.5
+   "expired": 0,
+   "seconds": 18001.3
   },
   "power_no": {
-   "products": 36488,
+   "products": 36484,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 31,
-   "seconds": 16543.7
+   "expired": 0,
+   "seconds": 16527.1
   },
   "monter_no": {
-   "products": 32041,
+   "products": 32061,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 15641.8
+   "expired": 6,
+   "seconds": 23.6
   },
   "byggmax_no": {
-   "products": 5524,
+   "products": 5523,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 2502.7
+   "seconds": 2600.7
   }
  }
 }
