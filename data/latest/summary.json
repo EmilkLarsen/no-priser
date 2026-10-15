@@ -1,13 +1,13 @@
 {
  "date": "2026-10-15",
- "total_rows": 107285,
+ "total_rows": 107407,
  "chains": {
   "byggmakker_no": {
-   "products": 29952,
+   "products": 31049,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 18001.0
+   "expired": 4,
+   "seconds": 577.1
   },
   "power_no": {
    "products": 31784,
