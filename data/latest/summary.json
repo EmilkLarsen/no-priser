@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "total_rows": 107347,
+ "total_rows": 107342,
  "chains": {
   "byggmakker_no": {
    "products": 30962,
@@ -20,8 +20,8 @@
    "products": 32053,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 15624.3
+   "expired": 5,
+   "seconds": 15.2
   },
   "byggmax_no": {
    "products": 5592,
