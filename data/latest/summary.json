@@ -3,11 +3,11 @@
  "total_rows": 123233,
  "chains": {
   "byggmakker_no": {
-   "products": 30368,
+   "products": 31286,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 18002.1
+   "seconds": 577.2
   },
   "monter_no": {
    "products": 32126,
