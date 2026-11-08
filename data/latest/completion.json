@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "detail": {
   "byggmakker_no": {
    "rows": 48020,
@@ -10,11 +10,11 @@
    "complete": true
   },
   "monter_no": {
-   "rows": 32536,
+   "rows": 32518,
    "complete": true
   },
   "power_no": {
-   "rows": 38275,
+   "rows": 38250,
    "complete": true
   }
  }
