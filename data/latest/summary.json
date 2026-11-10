@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "total_rows": 127829,
+ "total_rows": 128432,
  "chains": {
   "power_no": {
    "products": 37560,
@@ -17,11 +17,11 @@
    "seconds": 2616.1
   },
   "byggmakker_no": {
-   "products": 29385,
+   "products": 30305,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 18001.3
+   "seconds": 598.4
   },
   "monter_no": {
    "products": 32064,
