@@ -2,8 +2,11 @@
  "date": "2026-11-13",
  "chains": {
   "monter_no": {
-   "error": "collapse guard: 30 rows vs 32485 before",
-   "kept_previous": true
+   "products": 32037,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 6,
+   "seconds": 15602.9
   }
  }
 }
