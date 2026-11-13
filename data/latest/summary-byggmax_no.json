@@ -2,8 +2,11 @@
  "date": "2026-11-13",
  "chains": {
   "byggmax_no": {
-   "error": "collapse guard: 30 rows vs 5600 before",
-   "kept_previous": true
+   "products": 5556,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 2683.0
   }
  }
 }
