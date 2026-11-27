@@ -2,7 +2,11 @@
  "date": "2026-11-26",
  "chains": {
   "power_no": {
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "products": 37674,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 21,
+   "seconds": 17136.9
   }
  }
 }
