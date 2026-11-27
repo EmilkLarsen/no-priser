@@ -2,16 +2,16 @@
  "date": "2026-11-27",
  "detail": {
   "byggmakker_no": {
-   "rows": 52191,
+   "rows": 52193,
    "complete": false
   },
   "byggmax_no": {
    "rows": 5625,
-   "complete": false
+   "complete": true
   },
   "monter_no": {
-   "rows": 32414,
-   "complete": false
+   "rows": 33250,
+   "complete": true
   },
   "power_no": {
    "rows": 38117,
