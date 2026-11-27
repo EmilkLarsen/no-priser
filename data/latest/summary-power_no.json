@@ -1,12 +1,12 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "chains": {
   "power_no": {
-   "products": 37674,
+   "products": 37678,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 21,
-   "seconds": 17136.9
+   "expired": 16,
+   "seconds": 17413.4
   }
  }
 }
